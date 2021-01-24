@@ -1,0 +1,8 @@
+.sign-out {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+    color:black;
+    padding: 1% 1%;
+}
+

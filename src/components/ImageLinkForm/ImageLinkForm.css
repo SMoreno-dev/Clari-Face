@@ -1,0 +1,30 @@
+.input {
+    width: 70%;
+    margin-right: 5px;
+}
+
+.input-btn {
+    width: 100px;
+    height: 2%;
+}
+
+.detect {
+    text-align: center;
+    font-size: 4rem;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%
+}
+
+.try {
+    font-size: 1.9rem;
+}
+
+.input-box {
+    margin: 0 25% 0 25%;
+}
+
+.input-padding {
+    margin: auto;
+    text-align: center;
+}

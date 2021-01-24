@@ -1,0 +1,15 @@
+.Tilt {
+    background: linear-gradient(90deg, rgba(33,133,63,1) 0%, rgba(1,118,148,1) 66%);
+    margin-bottom: 20px;
+}
+
+.Tilt-inner {
+    padding-top: 5px;
+    padding-left: 2px;
+    width: 120px
+}
+
+.btn-link {
+    text-decoration: none !important
+}
+
