@@ -1,0 +1,67 @@
+.card {
+    text-align: center;
+    width: 44%;
+    padding: 5px;
+    margin: 5% 28%;
+    margin-bottom: 1%;
+    background: linear-gradient(135deg, rgba(1, 204, 177, 0.9) 0%, rgba(1, 38, 61, 0.85) 99%) !important;
+    border-style: none !important;
+}
+
+.sign-title {
+    font-size: 4rem !important;
+    font-weight: bolder !important;
+    padding-bottom: 3%;
+}
+
+.form-control {
+    width: 50% !important;
+    margin: 0 25% !important;
+}
+
+.submit {
+    margin: 3% 32% 0 32%;
+    width: 36% !important;
+    background: rgb(8, 189, 212, 0.7) !important;
+    border-style: none !important;
+    color: black !important;
+}
+
+.submit:hover {
+    background: rgba(32, 214, 238, 0.7) !important;
+    color: white !important;
+    transform: scale(1.2);
+    font-weight: bold !important;
+}
+
+.submit:active {
+    background: rgba(32, 214, 238, 0.7) !important;
+    color: white !important;
+    transform: scale(1.1);
+    font-weight: normal !important;
+}
+
+
+
+#emailhelp {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: black !important;
+    font-style: italic;
+    font-weight: 300 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.register {
+    padding: 2% 0 2% 0;
+    text-decoration: none !important;
+    color: black !important;
+    margin: 0 50%
+}
+
+.register:hover {
+    text-decoration: underline !important;
+    transform: scale(1.1);
+}
