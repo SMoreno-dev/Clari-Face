@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImageLinkForm.css";
 
-const ImageLinkForm = ( { onInputChange, onSubmit } ) => {
+const ImageLinkForm = ( { onInputChange, onImageSubmit } ) => {
     return (
         <div>
             <div className="center detect">
@@ -12,7 +12,7 @@ const ImageLinkForm = ( { onInputChange, onSubmit } ) => {
                 <div className="center p-3 mb-2">
                     <input placeholder="Enter image url" className="input" type="text" onChange={ onInputChange }></input>
                     <button className="zoom btn btn-link btn-outline-info text-white input-btn" 
-                            onClick={ onSubmit }
+                            onClick={ onImageSubmit }
                      >Detect</button>
                 </div>
             </div>
