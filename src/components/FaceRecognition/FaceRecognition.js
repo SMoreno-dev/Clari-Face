@@ -11,7 +11,7 @@ const FaceRecognition = ({imageUrl, box}) => {
                         <div className="bounding-box" style={{left: box.leftCol, right: box.rightCol, top: box.topRow, bottom: box.bottomRow}}></div>
                     </div>
                 </div>
-                <div style={{marginBottom: 370}}></div>
+                <div style={{padding: "15%", position: "absolute"}}></div>
             </>
         )
     } else {
@@ -23,7 +23,6 @@ const FaceRecognition = ({imageUrl, box}) => {
                             <div className="bounding-box" style={{left: box.leftCol, right: box.rightCol, top: box.topRow, bottom: box.bottomRow}}></div>
                     </div>
                 </div>
-                <div style={{marginBottom: 370}}></div>
             </>
         )
     }
