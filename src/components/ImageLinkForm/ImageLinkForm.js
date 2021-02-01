@@ -11,14 +11,14 @@ const ImageLinkForm = ( { onInputChange, onImageSubmit } ) => {
             <div className="input-box shadow-lg border-0 rounded">
                 <div className="center p-3 mb-2">
                     <input placeholder="Enter image url" className="input" type="text" onChange={ onInputChange }></input>
-                    <button className="zoom btn btn-link btn-outline-info text-white input-btn" 
-                            onClick={ onImageSubmit }
-                     >Detect</button>
+                    <button 
+                        className="zoom btn btn-link btn-outline-info text-white input-btn"        
+                        onClick={ onImageSubmit }
+                     >Detect
+                    </button>
                 </div>
             </div>
-
             <p className="try center">{`Click on 'Detect' to try it.`}</p>
-
         </div>
     )
 }
