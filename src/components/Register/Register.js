@@ -44,53 +44,60 @@ class Register extends React.Component {
 
     render() {
         return (
-            <div className="col-md">
-                <div className="card rounded mx-auto pb-3 shadow-lg">
-                    <form>
-                        <div className="register-title pr-3 pl-3">
-                            Register
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-3"></div>
+                    <div className="col-sm-6">
+                    <div className="card rounded mx-auto pb-3 shadow-lg">
+                            <form>
+                                <div className="register-title pr-3 pl-3">
+                                    Register
+                                </div>
+                                <div className="form-group pb-1">
+                                    <label htmlFor="input-name" className="h5 font-weight-bold  ">Name</label>
+                                    <input 
+                                    onChange={this.onNameChange}
+                                    type="text" 
+                                    className="form-control" 
+                                    id="input-name" 
+                                    aria-describedby="nameHelp" 
+                                    placeholder="Name">
+                                    </input>
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="input-email" className="h5 font-weight-bold  ">E-mail</label>
+                                    <input 
+                                    onChange={this.onEmailChange}
+                                    type="text" 
+                                    className="form-control" 
+                                    id="input-email" 
+                                    aria-describedby="emailHelp" 
+                                    placeholder="E-mail">
+                                    </input>
+                                    <small id="emailhelp" className="form-text text-muted h6">We'll never share your e-mail.</small>
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="input-password" className="h5 font-weight-bold">Password</label>
+                                    <input 
+                                    onChange={this.onPasswordChange}
+                                    type="password" 
+                                    className="form-control" 
+                                    id="input-password" 
+                                    placeholder="Password">
+                                    </input>
+                                </div>
+                                <button 
+                                    type="button" 
+                                    onClick={this.onSubmitRegister}
+                                    className="btn btn-primary submit mt-3"
+                                    >{`Register`}
+                                </button>
+                            </form>
                         </div>
-                        <div className="form-group pb-1">
-                            <label htmlFor="input-name" className="h5 font-weight-bold  ">Name</label>
-                            <input 
-                            onChange={this.onNameChange}
-                            type="text" 
-                            className="form-control" 
-                            id="input-name" 
-                            aria-describedby="nameHelp" 
-                            placeholder="Name">
-                            </input>
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="input-email" className="h5 font-weight-bold  ">E-mail</label>
-                            <input 
-                            onChange={this.onEmailChange}
-                            type="text" 
-                            className="form-control" 
-                            id="input-email" 
-                            aria-describedby="emailHelp" 
-                            placeholder="E-mail">
-                            </input>
-                            <small id="emailhelp" className="form-text text-muted h6">We'll never share your e-mail.</small>
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="input-password" className="h5 font-weight-bold">Password</label>
-                            <input 
-                            onChange={this.onPasswordChange}
-                            type="password" 
-                            className="form-control" 
-                            id="input-password" 
-                            placeholder="Password">
-                            </input>
-                        </div>
-                        <button 
-                            type="button" 
-                            onClick={this.onSubmitRegister}
-                            className="btn btn-primary submit mt-3"
-                            >{`Register`}
-                        </button>
-                    </form>
+                    </div>                    
+                    <div className="col-sm-3"></div>            
                 </div>
+
             </div>
 
         )
