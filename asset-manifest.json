@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Clari-Face/static/css/main.bb5b60dd.chunk.css",
-    "main.js": "/Clari-Face/static/js/main.c843e68f.chunk.js",
-    "main.js.map": "/Clari-Face/static/js/main.c843e68f.chunk.js.map",
+    "main.js": "/Clari-Face/static/js/main.fef0df39.chunk.js",
+    "main.js.map": "/Clari-Face/static/js/main.fef0df39.chunk.js.map",
     "runtime-main.js": "/Clari-Face/static/js/runtime-main.2f0fffc8.js",
     "runtime-main.js.map": "/Clari-Face/static/js/runtime-main.2f0fffc8.js.map",
     "static/css/2.658248ec.chunk.css": "/Clari-Face/static/css/2.658248ec.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.658248ec.chunk.css",
     "static/js/2.4d4be9ba.chunk.js",
     "static/css/main.bb5b60dd.chunk.css",
-    "static/js/main.c843e68f.chunk.js"
+    "static/js/main.fef0df39.chunk.js"
   ]
 }
