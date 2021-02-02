@@ -40,7 +40,7 @@ class SignIn extends React.Component {
     render () {
         const { onRouteChange } = this.props;
         return (
-            <div className="card shadow-lg">
+            <div className="card center shadow-lg">
                 <form>
                     <div className="sign-title">
                         Sign In
