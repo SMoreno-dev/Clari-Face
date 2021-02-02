@@ -1,30 +1,33 @@
 .card {
     text-align: center;
-    width: 40%;
-    padding: 5px 5%;
-    margin: 5% auto !important;
-    margin-bottom: 1%;
+    width: 40% !important;
     background: linear-gradient(135deg, rgba(1, 204, 177, 0.9) 0%, rgba(1, 38, 61, 0.85) 99%) !important;
     border-style: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 5px !important;
 }
 
 .sign-title {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
     font-weight: bolder !important;
-    padding-bottom: 3%;
+    padding-bottom: 3% !important;
+    display: flex !important;
+    justify-content: center !important;
 }
 
 .form-control {
     width: 50% !important;
-    margin: 0 25% !important;
+    margin: auto !important;
 }
 
 .submit {
-    margin: 3% 32% 0 32%;
-    width: 36% !important;
+    margin: auto !important;
+    width: auto !important;
     background: rgb(8, 189, 212, 0.7) !important;
     border-style: none !important;
     color: black !important;
+    display: inline;
 }
 
 .submit:hover {
@@ -49,9 +52,8 @@
     color: black !important;
     font-style: italic;
     font-weight: 300 !important;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 .register {

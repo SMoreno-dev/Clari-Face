@@ -44,9 +44,9 @@ class Register extends React.Component {
 
     render() {
         return (
-            <div className="card2 rounded shadow-lg">
+            <div className="card rounded mx-auto pb-3 shadow-lg">
                 <form>
-                    <div className="sign-title">
+                    <div className="register-title">
                         Register
                     </div>
                     <div className="form-group pb-1">
