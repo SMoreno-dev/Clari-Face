@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Clari-Face/static/css/main.96ee7830.chunk.css",
-    "main.js": "/Clari-Face/static/js/main.2a29fa46.chunk.js",
-    "main.js.map": "/Clari-Face/static/js/main.2a29fa46.chunk.js.map",
-    "runtime-main.js": "/Clari-Face/static/js/runtime-main.d73e37bc.js",
-    "runtime-main.js.map": "/Clari-Face/static/js/runtime-main.d73e37bc.js.map",
+    "main.css": "/Clari-Face/static/css/main.5886de45.chunk.css",
+    "main.js": "/Clari-Face/static/js/main.78dc1e25.chunk.js",
+    "main.js.map": "/Clari-Face/static/js/main.78dc1e25.chunk.js.map",
+    "runtime-main.js": "/Clari-Face/static/js/runtime-main.2f0fffc8.js",
+    "runtime-main.js.map": "/Clari-Face/static/js/runtime-main.2f0fffc8.js.map",
     "static/css/2.658248ec.chunk.css": "/Clari-Face/static/css/2.658248ec.chunk.css",
-    "static/js/2.b6bdde71.chunk.js": "/Clari-Face/static/js/2.b6bdde71.chunk.js",
-    "static/js/2.b6bdde71.chunk.js.map": "/Clari-Face/static/js/2.b6bdde71.chunk.js.map",
-    "static/js/3.04640949.chunk.js": "/Clari-Face/static/js/3.04640949.chunk.js",
-    "static/js/3.04640949.chunk.js.map": "/Clari-Face/static/js/3.04640949.chunk.js.map",
+    "static/js/2.484d5b22.chunk.js": "/Clari-Face/static/js/2.484d5b22.chunk.js",
+    "static/js/2.484d5b22.chunk.js.map": "/Clari-Face/static/js/2.484d5b22.chunk.js.map",
+    "static/js/3.42c6cbb0.chunk.js": "/Clari-Face/static/js/3.42c6cbb0.chunk.js",
+    "static/js/3.42c6cbb0.chunk.js.map": "/Clari-Face/static/js/3.42c6cbb0.chunk.js.map",
     "index.html": "/Clari-Face/index.html",
     "static/css/2.658248ec.chunk.css.map": "/Clari-Face/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.96ee7830.chunk.css.map": "/Clari-Face/static/css/main.96ee7830.chunk.css.map",
-    "static/js/2.b6bdde71.chunk.js.LICENSE.txt": "/Clari-Face/static/js/2.b6bdde71.chunk.js.LICENSE.txt"
+    "static/css/main.5886de45.chunk.css.map": "/Clari-Face/static/css/main.5886de45.chunk.css.map",
+    "static/js/2.484d5b22.chunk.js.LICENSE.txt": "/Clari-Face/static/js/2.484d5b22.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d73e37bc.js",
+    "static/js/runtime-main.2f0fffc8.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.b6bdde71.chunk.js",
-    "static/css/main.96ee7830.chunk.css",
-    "static/js/main.2a29fa46.chunk.js"
+    "static/js/2.484d5b22.chunk.js",
+    "static/css/main.5886de45.chunk.css",
+    "static/js/main.78dc1e25.chunk.js"
   ]
 }
