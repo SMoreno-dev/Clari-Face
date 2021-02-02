@@ -30,3 +30,7 @@ code {
 .button {
   cursor: pointer;
 }
+
+.btn-link {
+  text-decoration: none !important
+}

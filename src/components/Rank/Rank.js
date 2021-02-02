@@ -1,15 +1,17 @@
 import React from "react";
-import "./Rank.css";
+import './Rank.css';
 
 const Rank = ({ name, entries }) => {
     return (
-        <div className="rank center text-light">
-            <div className="h4 m-1">
-                {`${name}, your current entry count is...`}
+        <div className="container center rank mx-auto">
+            <div className="row">
+                <div className="col-1"></div>
+                <div className="h4 col-10">
+                    {`${name}, your current entry count is... ${entries}`}
+                </div>
+                <div className="col-1"></div>
             </div>
-            <div className="h3 ml-2">
-                {`${entries}`}
-            </div>
+
         </div>
     )
 }
