@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Clari-Face/static/css/main.92fe7177.chunk.css",
+    "main.css": "/Clari-Face/static/css/main.7e1d8431.chunk.css",
     "main.js": "/Clari-Face/static/js/main.e1171624.chunk.js",
     "main.js.map": "/Clari-Face/static/js/main.e1171624.chunk.js.map",
     "runtime-main.js": "/Clari-Face/static/js/runtime-main.2f0fffc8.js",
@@ -12,14 +12,14 @@
     "static/js/3.42c6cbb0.chunk.js.map": "/Clari-Face/static/js/3.42c6cbb0.chunk.js.map",
     "index.html": "/Clari-Face/index.html",
     "static/css/2.658248ec.chunk.css.map": "/Clari-Face/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.92fe7177.chunk.css.map": "/Clari-Face/static/css/main.92fe7177.chunk.css.map",
+    "static/css/main.7e1d8431.chunk.css.map": "/Clari-Face/static/css/main.7e1d8431.chunk.css.map",
     "static/js/2.484d5b22.chunk.js.LICENSE.txt": "/Clari-Face/static/js/2.484d5b22.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2f0fffc8.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.484d5b22.chunk.js",
-    "static/css/main.92fe7177.chunk.css",
+    "static/css/main.7e1d8431.chunk.css",
     "static/js/main.e1171624.chunk.js"
   ]
 }
