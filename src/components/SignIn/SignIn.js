@@ -40,7 +40,7 @@ class SignIn extends React.Component {
     render () {
         const { onRouteChange } = this.props;
         return (
-            <div className="col center">
+            <div className="col-sm center">
                 <div className="card shadow-lg mx-auto">
                 <form>
                     <div className="sign-title">
@@ -58,7 +58,7 @@ class SignIn extends React.Component {
                         </input>
                         <small id="emailhelp" className="form-text h6">We'll never share your e-mail.</small>
                     </div>
-                    <div className="form-group">
+                    <div className="form-group pb-3">
                         <label htmlFor="input-password" className="h5 font-weight-bold">Password</label>
                         <input 
                             onChange={this.onPasswordChange}
