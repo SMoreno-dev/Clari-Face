@@ -40,7 +40,8 @@ class SignIn extends React.Component {
     render () {
         const { onRouteChange } = this.props;
         return (
-            <div className="card shadow-lg mx-auto">
+            <div className="col center">
+                <div className="card shadow-lg mx-auto">
                 <form>
                     <div className="sign-title">
                         Sign In
@@ -78,6 +79,8 @@ class SignIn extends React.Component {
                     >Register</p>
                 </form>
             </div>
+        </div>
+            
         )    
     }
 }
