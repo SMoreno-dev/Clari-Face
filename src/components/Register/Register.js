@@ -44,10 +44,10 @@ class Register extends React.Component {
 
     render() {
         return (
-            <div className="col center">
+            <div className="col-md">
                 <div className="card rounded mx-auto pb-3 shadow-lg">
                     <form>
-                        <div className="register-title">
+                        <div className="register-title pr-3 pl-3">
                             Register
                         </div>
                         <div className="form-group pb-1">

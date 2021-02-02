@@ -1,9 +1,7 @@
-
- .register-title {
-    font-size: 3rem !important;
+.register-title {
+    font-size: 2.7rem !important;
     font-weight: bolder !important;
     display: flex !important;
     justify-content: center !important;
-    padding-bottom: 3% !important;
 }
 
