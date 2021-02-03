@@ -1,6 +1,4 @@
-#clariFace
-
-Small implementation of Clarifai's face detection API:
+Based on Clarifai's face detection API:
 
 https://www.clarifai.com/models/face-detection
 
