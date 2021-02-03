@@ -78,33 +78,35 @@ class App extends Component {
   }
 
   onImageSubmit = () => {
-    this.setState({ imageUrl: this.state.input });
-    fetch("https://pacific-savannah-75565.herokuapp.com/imageurl", {
-      method: "post",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({
-        input: this.state.input
-      })
-    })
-      .then(response => response.json())
-      .then(response => {
-        if (response) {
-          fetch("https://pacific-savannah-75565.herokuapp.com/image", {
-            method: "post",
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify({
-              id: this.state.user.id
-            })
+      this.setState({ imageUrl: this.state.input });
+      if(this.state.input.length) {
+        fetch("https://pacific-savannah-75565.herokuapp.com/imageurl", {
+          method: "post",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify({
+            input: this.state.input
           })
+        })
           .then(response => response.json())
-          .then(count => {
-            this.setState(Object.assign(this.state.user, {entries: count}))
+          .then(response => {
+            if (response) {
+              fetch("https://pacific-savannah-75565.herokuapp.com/image", {
+                method: "post",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({
+                  id: this.state.user.id
+                })
+              })
+              .then(response => response.json())
+              .then(count => {
+                  this.setState(Object.assign(this.state.user, {entries: count}))
+              })
+              .catch(err => console.log(err));
+            }
+            this.displayFaceBox(this.calculateFaceLocation(response))
           })
-          .catch(err => console.log(err));
-        }
-        this.displayFaceBox(this.calculateFaceLocation(response))
-      })
-      .catch((err) => console.log(err));
+          .catch((err) => console.log(err));
+    }
   }
 
   onRouteChange = (route) => {
